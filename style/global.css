@@ -1,0 +1,25 @@
+.artigo {
+    background-color: lightgray;
+}
+.artigo .artigo__titulo {
+    font-size: 18px;
+    color: brown;
+}
+
+.artigo .artigo__imagem {
+    width: 100px;
+    height: 100px;
+
+}
+.artigo .artigo__paragrafo {
+    font-size: 12px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.artigo .artigo__saibaMais {
+    font-size: 14px;
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+
+}
