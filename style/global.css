@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .artigo {
     background-color: lightgray;
 }
@@ -21,5 +25,51 @@
     color: blue;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
+}
+.artigo .artigo__saibaMais--verde {
+    color: chocolate;
+}
+.container {
+    background-color: brown;
+    border: 2px;
+    padding: 10px;
+    margin: 20px;
+    width: 30px;
+    height: 50px;
+    overflow: scroll;
+}
+.caixa{
+    border: 10px double orange;
+    margin: 10px 5px 7px 8px ;
+    padding: 10px 8px 3px 2px;
+    border-radius: 30px;
+}
+.menu {
+    list-style: none;
+    background-color: black;
+    color: white;
+
+}
+
+.menu__item a {
+    color: white;
+    text-decoration: none;
+}
+.menu__item {
+    display: inline-block;
+    position: relative;
+}
+.submenu {
+    position: absolute;
+    display: none;
+    background-color: lightgray;
+    list-style: none;
+    padding: 10px;
+}
+.submenu__item{
+    margin-top: 5px;
+}
+.menu__item--submenu:hover .submenu {
+    display: block;
 
 }
